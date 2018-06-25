@@ -1,0 +1,16 @@
+{
+  "name": "fpm-theme-shop-elegant",
+  "version": "0.0.1",
+  "description": "基于 element-ui react 的简洁优雅的小店程序 前端项目",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "start http://localhost:8088/index.html && ./node_modules/.bin/http-server . -d False -s --cors -c-1 -p 8088"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "framework7": "^3.0.0-beta.14",
+    "framework7-icons": "^0.9.1",
+    "http-server": "^0.11.1"
+  }
+}
