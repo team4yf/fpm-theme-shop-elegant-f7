@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="ios">
   <head>
     <!-- Required meta tags-->
     <meta charset="utf-8">
@@ -10,7 +10,7 @@
     <!-- Your app title -->
     <title>My App</title>
     <!-- Path to Framework7 Library CSS, Material Theme -->
-    <link rel="stylesheet" href="node_modules/framework7/css/framework7.min.css" />
+    <link rel="stylesheet" href="node_modules/framework7/css/framework7.ios.min.css" />
     <link rel="stylesheet" href="node_modules/framework7-icons/css/framework7-icons.css" />
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="my-app.css"/>
@@ -26,15 +26,12 @@
         <!-- Initial Page, "data-name" contains page name -->
         <div data-name="home" class="page">
 
-          <!-- Top Navbar -->
-      
-
           <div class="toolbar tabbar">
             <div class="toolbar-inner">
-              <a href="#tab-1" class="tab-link tab-link-active"><i class="f7-icons size-50">heart</i></a>
-              <a href="#tab-2" class="tab-link"><i class="f7-icons size-50">list</i></a>
-              <a href="#tab-3" class="tab-link"><i class="f7-icons size-50">bag</i></a>
-              <a href="#tab-4" class="tab-link"><i class="f7-icons size-50">person</i></a>
+              <a href="#tab-1" class="tab-link tab-link-active"><i class="f7-icons size-25">heart</i></a>
+              <a href="#tab-2" class="tab-link"><i class="f7-icons size-25">list</i></a>
+              <a href="#tab-3" class="tab-link"><i class="f7-icons size-25">bag</i></a>
+              <a href="#tab-4" class="tab-link"><i class="f7-icons size-25">person</i></a>
             </div>
           </div>
           <div class="tabs">
@@ -58,8 +55,8 @@
                           </div>
                           <div class="col-50">
                             <p class="align-right">
-                              <button class="bg-gray button button-cycle"><i class="color-gray size-20 f7-icons">bag</i></button>
-                              <button class="bg-gray button button-cycle"><i class="color-gray size-20 f7-icons">heart</i></button>
+                              <button class="bg-gray button button-cycle" id="button-cycle"><i class="color-gray size-20 f7-icons">bag</i></button>
+                              <button class="bg-gray button button-cycle" id="button-cycle"><i class="color-gray size-20 f7-icons">heart</i></button>
                             </p>
                           </div>
                         </div>

@@ -1,4 +1,4 @@
-.ios .page {
+.ios .page, .md .page {
     background: #ffffff;
 }
 
@@ -47,11 +47,12 @@
 .swiper-slide .info .price{
     line-height: 3em; margin-bottom: 0;
 }
-
 .swiper-slide .button-cycle{
     width: 3em; height: 3em; overflow: hidden;
+    max-width: 3em;
+    min-width: 3em;
     background: #E2E1E1;
-    border-radius: 1.5em; text-align: center; line-height: 2.6em;
+    border-radius: 1.5em; text-align: center; line-height: 3.2em;
     padding: 0; display: inline-block;
     border: none;
 }
@@ -80,17 +81,24 @@
 .size-29 { font-size: 29px }
 .size-50 { font-size: 50px }
 
-
-.ios .toolbar, .toolbar{
-    background: #fff;
+.block-title, .ios .block-title, .md .block-title{
+    text-transform: uppercase;
+    color: #6d6d72;
+    margin: 15px 15px 10px;
+    line-height: 17px;
 }
-.ios .toolbar:before{
+.md .toolbar, .ios .toolbar, .toolbar{
+    background: #fff;
+    height: 44px;
+    bottom: 0;
+}
+.md .toolbar:before, .ios .toolbar:before{
     height: 0;
 }
 
-.ios .tabbar a.tab-link-active, .ios .tabbar-labels a.tab-link-active{
+.md .tabbar a.tab-link-active,.ios .tabbar a.tab-link-active, .md .tabbar-labels a.tab-link-active, .ios .tabbar-labels a.tab-link-active{
     color: goldenrod;
 }
-.ios .tabbar a, .ios .tabbar-labels a {
+.md .tabbar a, .ios .tabbar a, .md .tabbar-labels a, .ios .tabbar-labels a {
     color: #e2e2e2;
 }
