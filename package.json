@@ -1,7 +1,7 @@
 {
-  "name": "fpm-theme-shop-elegant",
+  "name": "fpm-theme-shop-elegant-f7",
   "version": "0.0.1",
-  "description": "基于 element-ui react 的简洁优雅的小店程序 前端项目",
+  "description": "基于framework7 的简洁优雅的小店程序 前端项目",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
